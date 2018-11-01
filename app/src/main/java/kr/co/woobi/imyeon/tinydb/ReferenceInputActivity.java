@@ -29,8 +29,6 @@ public class ReferenceInputActivity extends AppCompatActivity implements View.On
             editTextName.setText(name);
             editTextPass.setText(pass);
             editTextEmail.setText(email);
-
-
         buttonSave=(Button)findViewById(R.id.buttonSave);
         buttonSave.setOnClickListener(this);
     }
